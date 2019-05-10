@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 16 22:36:24 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : ethernet_test
+Top-level Entity Name : ethernet
+Family : Cyclone IV E
+Total logic elements : 807
+    Total combinational functions : 618
+    Dedicated logic registers : 386
+Total registers : 386
+Total pins : 48
+Total virtual pins : 0
+Total memory bits : 16,384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

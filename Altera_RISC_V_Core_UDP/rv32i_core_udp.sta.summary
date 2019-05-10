@@ -1,0 +1,161 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'sys_clk'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'E_RXC'
+Slack : 14.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'E_TXC'
+Slack : 15.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sys_clk'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'E_RXC'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'E_TXC'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'sys_clk'
+Slack : 10.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'E_TXC'
+Slack : 37.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'E_TXC'
+Slack : 2.206
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'sys_clk'
+Slack : 7.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.655
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'E_TXC'
+Slack : 19.662
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'E_RXC'
+Slack : 19.663
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'sys_clk'
+Slack : 1.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'E_RXC'
+Slack : 14.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'E_TXC'
+Slack : 15.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sys_clk'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'E_RXC'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'E_TXC'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'sys_clk'
+Slack : 11.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'E_TXC'
+Slack : 37.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'E_TXC'
+Slack : 2.040
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'sys_clk'
+Slack : 6.760
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.664
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'E_RXC'
+Slack : 19.525
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'E_TXC'
+Slack : 19.537
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'sys_clk'
+Slack : 6.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'E_RXC'
+Slack : 18.007
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'E_TXC'
+Slack : 18.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sys_clk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'E_RXC'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'E_TXC'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'sys_clk'
+Slack : 15.052
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'E_TXC'
+Slack : 38.796
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'E_TXC'
+Slack : 0.867
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'sys_clk'
+Slack : 4.006
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.326
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'E_RXC'
+Slack : 19.129
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'E_TXC'
+Slack : 19.169
+TNS   : 0.000
+
+------------------------------------------------------------

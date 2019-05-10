@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim
+vrv32i_cirbuff
+!s110 1554971462
+!i10b 1
+!s100 3LUz2P8_MLi]Zb4V9CUXi2
+IW2_h@D^EQI?kg]lZWN@3F1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1554969426
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1554971462.000000
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff
+Z5 tCvgOpt 0
+vsimple_dual_port_ram_dual_clock
+!s110 1554969116
+!i10b 1
+!s100 QS@0Q[Uk78XCZ>XZFz00K1
+IfV88Kkd@Le0GDLYoXY4=10
+R1
+R0
+w1553111674
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1554969116.000000
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v|
+!i113 1
+R3
+R4
+R5
+vtb_rv32i_cirbuff
+!s110 1554972040
+!i10b 1
+!s100 6[4d9J0D83>YLZkk>@^=_0
+I5<GCEc@gjiVUMW_EiVIQ81
+R1
+R0
+w1554972035
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1554972039.000000
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v|
+!i113 1
+R3
+R4
+R5

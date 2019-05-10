@@ -1,0 +1,588 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RISC_V_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:51:56 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v 
+# -- Compiling module rv32i_cirbuff
+# 
+# Top level modules:
+# 	rv32i_cirbuff
+# End time: 15:51:56 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:51:56 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simple_dual_port_ram_dual_clock.v 
+# -- Compiling module simple_dual_port_ram_dual_clock
+# 
+# Top level modules:
+# 	simple_dual_port_ram_dual_clock
+# End time: 15:51:56 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:51:56 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 15:51:56 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_rv32i_cirbuff
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_rv32i_cirbuff 
+# Start time: 15:51:57 on Apr 11,2019
+# Loading work.tb_rv32i_cirbuff
+# Loading work.rv32i_cirbuff
+# Loading work.simple_dual_port_ram_dual_clock
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9155 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:57:23 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v 
+# -- Compiling module rv32i_cirbuff
+# 
+# Top level modules:
+# 	rv32i_cirbuff
+# End time: 15:57:23 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9155 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/DUT/rd_data
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/DUT/address_tail_ram \
+sim:/tb_rv32i_cirbuff/DUT/address_tail \
+sim:/tb_rv32i_cirbuff/DUT/address_head
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9155 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/DUT/address_tail_ram \
+sim:/tb_rv32i_cirbuff/DUT/address_tail \
+sim:/tb_rv32i_cirbuff/DUT/address_head \
+sim:/tb_rv32i_cirbuff/DUT/ADDR_WIDTH \
+sim:/tb_rv32i_cirbuff/DUT/addr_tail_chk_tail_f \
+sim:/tb_rv32i_cirbuff/DUT/addr_tail_chk_head_e \
+sim:/tb_rv32i_cirbuff/DUT/addr_head_chk_tail_f \
+sim:/tb_rv32i_cirbuff/DUT/addr_head_chk_head_e
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9155 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:03:24 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:03:24 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9135 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/DUT/wr_en_reg \
+sim:/tb_rv32i_cirbuff/DUT/rd_en_reg
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 9135 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:05:50 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:05:50 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 8035 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:06:34 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:06:34 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7875 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:07:28 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:07:28 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:20 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:09:20 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+# Break key hit
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7715 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:09:47 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:09:47 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7875 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:10:02 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:10:02 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7875 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:10:31 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:10:31 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7955 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:11:43 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:11:43 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7885 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:12:39 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:12:39 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/wr_req_signal \
+sim:/tb_rv32i_cirbuff/rd_req_signal
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:13:18 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:13:18 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:00 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:14:00 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7885 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:25 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:14:25 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_rv32i_cirbuff
+# End time: 16:14:27 on Apr 11,2019, Elapsed time: 0:22:30
+# Errors: 0, Warnings: 0
+# vsim work.tb_rv32i_cirbuff 
+# Start time: 16:14:27 on Apr 11,2019
+# Loading work.tb_rv32i_cirbuff
+# Loading work.rv32i_cirbuff
+# Loading work.simple_dual_port_ram_dual_clock
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:14:35 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:14:35 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7875 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+do sim_wave.do
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7875 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:32 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:15:32 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:18:00 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:18:00 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:18:57 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:18:57 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(100)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 100
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:30:22 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:30:22 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:31:01 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:31:01 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:31:02 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/rv32i_cirbuff.v 
+# -- Compiling module rv32i_cirbuff
+# 
+# Top level modules:
+# 	rv32i_cirbuff
+# End time: 16:31:02 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+# Loading work.rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:10 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:32:10 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7715 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+add wave -position insertpoint  \
+sim:/tb_rv32i_cirbuff/DUT/wr_en_reg \
+sim:/tb_rv32i_cirbuff/DUT/rd_en_reg
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+restart
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7715 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:57 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:32:57 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:33:34 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:33:34 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7795 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:33 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:34:33 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7795 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:32 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:35:32 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(99)
+#    Time: 7725 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 99
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:17 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:37:17 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(96)
+#    Time: 5810 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 96
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:50 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:37:50 on Apr 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(96)
+#    Time: 5805 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 96
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:39 on Apr 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v 
+# -- Compiling module tb_rv32i_cirbuff
+# 
+# Top level modules:
+# 	tb_rv32i_cirbuff
+# End time: 16:40:40 on Apr 11,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_rv32i_cirbuff
+run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v(98)
+#    Time: 5805 ns  Iteration: 0  Instance: /tb_rv32i_cirbuff
+# Break in Module tb_rv32i_cirbuff at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/tb_rv32i_cirbuff.v line 98
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_circular_buff/simulation/modelsim/sim_wave.do
+# End time: 16:42:31 on Apr 11,2019, Elapsed time: 0:28:04
+# Errors: 0, Warnings: 0

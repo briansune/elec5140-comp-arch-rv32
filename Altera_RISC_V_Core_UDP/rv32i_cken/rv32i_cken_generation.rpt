@@ -1,0 +1,33 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\xilinx_cmp_arch\RISC_V\Altera_RISC_V_Core_UDP\rv32i_cken.qsys --block-symbol-file --output-directory=E:\xilinx_cmp_arch\RISC_V\Altera_RISC_V_Core_UDP\rv32i_cken --family="Cyclone IV E" --part=EP4CE10F17C8
+Progress: Loading Altera_RISC_V_Core_UDP/rv32i_cken.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 17.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: rv32i_cken.altclkctrl_0: Targeting device family: Cyclone IV E.
+: rv32i_cken.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\xilinx_cmp_arch\RISC_V\Altera_RISC_V_Core_UDP\rv32i_cken.qsys --synthesis=VERILOG --output-directory=E:\xilinx_cmp_arch\RISC_V\Altera_RISC_V_Core_UDP\rv32i_cken\synthesis --family="Cyclone IV E" --part=EP4CE10F17C8
+Progress: Loading Altera_RISC_V_Core_UDP/rv32i_cken.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 17.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: rv32i_cken.altclkctrl_0: Targeting device family: Cyclone IV E.
+: rv32i_cken.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: rv32i_cken: Generating rv32i_cken "rv32i_cken" for QUARTUS_SYNTH
+Info: altclkctrl_0: Generating top-level entity rv32i_cken_altclkctrl_0.
+Info: altclkctrl_0: "rv32i_cken" instantiated altclkctrl "altclkctrl_0"
+Info: rv32i_cken: Done "rv32i_cken" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

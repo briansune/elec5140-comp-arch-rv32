@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RISC_V_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:11:34 on Mar 16,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v 
+# -- Compiling module rv32i_alu
+# 
+# Top level modules:
+# 	rv32i_alu
+# End time: 23:11:34 on Mar 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:11:34 on Mar 16,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v 
+# -- Compiling module tb_rv32i_alu
+# 
+# Top level modules:
+# 	tb_rv32i_alu
+# End time: 23:11:34 on Mar 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_rv32i_alu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_rv32i_alu 
+# Start time: 23:11:34 on Mar 16,2019
+# Loading work.tb_rv32i_alu
+# Loading work.rv32i_alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v(50)
+#    Time: 1710 ps  Iteration: 0  Instance: /tb_rv32i_alu
+# Break in Module tb_rv32i_alu at E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v line 50
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/simulation/modelsim/sim_alu
+# End time: 23:20:54 on Mar 16,2019, Elapsed time: 0:09:20
+# Errors: 0, Warnings: 0

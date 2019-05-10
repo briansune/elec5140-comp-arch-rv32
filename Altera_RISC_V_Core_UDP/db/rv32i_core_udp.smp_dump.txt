@@ -1,0 +1,7 @@
+
+State Machine - |rv32i_top|rv32i_pipeline:rv32i_pipeline_inst0|rv32i_mul_div:md|state
+Name state.s_done state.s_setup_output state.s_compute state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_compute 0 0 1 1 
+state.s_setup_output 0 1 0 1 
+state.s_done 1 0 0 1 

@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/simulation/modelsim
+vbidirectional_io
+Z1 !s110 1555192976
+!i10b 1
+!s100 Lhk4L8;:KAJF[Y`G;e5B72
+I9_:=eCTa`][0ZjzHH>:aC2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1538186855
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1555192976.000000
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src
+Z7 tCvgOpt 0
+vsdr
+R1
+!i10b 1
+!s100 aZHZNkOHh8>GaOPVMPDcj3
+IZ3le>EbdLD9cLE]OH1Bbz2
+R2
+R0
+w1555099295
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v
+Fsdr_parameters.h
+L0 48
+R3
+r1
+!s85 0
+31
+R4
+!s107 sdr_parameters.h|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v|
+!i113 1
+R5
+Z8 !s92 -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim
+R7
+vsdram_ctrl
+R1
+!i10b 1
+!s100 QPa;o2THEa5^0CX[ER5bz1
+IdENQk@W?[R@8m?XKlT8Bj3
+R2
+R0
+w1555179430
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v|
+!i113 1
+R5
+R6
+R7
+vtb_rv32i_ddr
+R1
+!i10b 1
+!s100 TNNO8[1@YzVQRa>8I_UcD2
+IAT0lR=mh;0ZCkCKEPYc[i1
+R2
+R0
+w1555178738
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v|
+!i113 1
+R5
+R8
+R7
+vtop
+R1
+!i10b 1
+!s100 2XBRi:TC;dVJV0lE0E<EX3
+I5<O3DedhX=8PFf[<AZHkX0
+R2
+R0
+w1555180084
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v|
+!i113 1
+R5
+R6
+R7

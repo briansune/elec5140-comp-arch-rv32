@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="95eb9be8d37a915eabaf"/>
+  </project>
+  <file_info>
+    <file device="EP4CE10F17C8" path="rv32i_core_udp.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="rv32i_cken:rv32i_cken_inst0" name="rv32i_cken_inst0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME rv32i_cken HAS_SOPCINFO 1 GENERATION_ID 1556639597"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

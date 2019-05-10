@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	E:/xilinx_cmp_arch/RISC_V/Archive/Altera_UDP_TxAck_icache_AT.qarlog
+
+Archive:	E:/xilinx_cmp_arch/RISC_V/Archive/Altera_UDP_TxAck_icache_AT.qar
+Date:		Tue Apr 16 21:28:32 2019
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+	=========== Files Selected: ===========
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/ethernet_test.qpf
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/ethernet_test.qsf
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/ethernet_test.sdc
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/ethernet_test_assignment_defaults.qdf
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/cache/udp_icache.qip
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/cache/udp_icache.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/cache/udp_icache_bb.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/crc.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/data_num.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/ethernet.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/iprecieve.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/ipsend.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/rtl/udp.v
+E:/xilinx_cmp_arch/RISC_V/Altera_UDP_PrgRx/udp_test.stp
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

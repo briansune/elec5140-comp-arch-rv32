@@ -1,0 +1,70 @@
+Quartus Prime Archive log --	E:/xilinx_cmp_arch/RISC_V/RISC_V_Core_UDP.qarlog
+
+Archive:	E:/xilinx_cmp_arch/RISC_V/RISC_V_Core_UDP.qar
+Date:		Tue Apr 30 23:13:44 2019
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+	=========== Files Selected: ===========
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache/rv32i_dcache.qip
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache/rv32i_dcache.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache/rv32i_dcache_bb.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache/rv32i_icache.qip
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache/rv32i_icache.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache/rv32i_icache_bb.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_PC_mux.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_all_opcode_decode.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_alu.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_alu_op.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_bus_constants.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_csr_addr_map.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_csr_file.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_ctrl.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_ctrl_constants.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_imm_gen.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_load_data.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_md_constants.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div_ctrl.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_opcode_decode.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_opcodes.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_platform_constants.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_regfile.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_a_mux.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_b_mux.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_store_data.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll.ppf
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll.qip
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll_bb.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_crc.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp_cmd.vh
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken.qsys
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken.sopcinfo
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken.bsf
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken.cmp
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken.html
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken.ppf
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken.xml
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken_bb.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken_generation.rpt
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken_inst.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/rv32i_cken_inst.vhd
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/synthesis/rv32i_cken.debuginfo
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/synthesis/rv32i_cken.qip
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/synthesis/rv32i_cken.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_cken/synthesis/submodules/rv32i_cken_altclkctrl_0.v
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.qpf
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.qsf
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.sdc
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_test.stp
+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/sim/tb_rv32i_top.v
+c:/intelfpga/17.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 59 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

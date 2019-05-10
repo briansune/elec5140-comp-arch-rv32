@@ -1,0 +1,591 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do rv32i_core_udp_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_sys_clk/sys_pll.v 
+# -- Compiling module sys_pll
+# 
+# Top level modules:
+# 	sys_pll
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache/rv32i_icache.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/icache/rv32i_icache.v 
+# -- Compiling module rv32i_icache
+# 
+# Top level modules:
+# 	rv32i_icache
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache/rv32i_dcache.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/dcache/rv32i_dcache.v 
+# -- Compiling module rv32i_dcache
+# 
+# Top level modules:
+# 	rv32i_dcache
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v 
+# -- Compiling module rv32i_udp
+# 
+# Top level modules:
+# 	rv32i_udp
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_crc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_crc.v 
+# -- Compiling module rv32i_crc
+# 
+# Top level modules:
+# 	rv32i_crc
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/db {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/db/sys_pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/db" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/db/sys_pll_altpll.v 
+# -- Compiling module sys_pll_altpll
+# 
+# Top level modules:
+# 	sys_pll_altpll
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v 
+# -- Compiling module rv32i_top
+# 
+# Top level modules:
+# 	rv32i_top
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_b_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_b_mux.v 
+# -- Compiling module rv32i_src_b_mux
+# 
+# Top level modules:
+# 	rv32i_src_b_mux
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_a_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_src_a_mux.v 
+# -- Compiling module rv32i_src_a_mux
+# 
+# Top level modules:
+# 	rv32i_src_a_mux
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_regfile.v 
+# -- Compiling module rv32i_regfile
+# 
+# Top level modules:
+# 	rv32i_regfile
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v 
+# -- Compiling module rv32i_pipeline
+# 
+# Top level modules:
+# 	rv32i_pipeline
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_PC_mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_PC_mux.v 
+# -- Compiling module rv32i_PC_mux
+# 
+# Top level modules:
+# 	rv32i_PC_mux
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_opcode_decode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_opcode_decode.v 
+# -- Compiling module rv32i_opcode_decode
+# 
+# Top level modules:
+# 	rv32i_opcode_decode
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div_ctrl.v 
+# -- Compiling module rv32i_mul_div_ctrl
+# 
+# Top level modules:
+# 	rv32i_mul_div_ctrl
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:07 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_mul_div.v 
+# -- Compiling module rv32i_mul_div
+# 
+# Top level modules:
+# 	rv32i_mul_div
+# End time: 09:34:07 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_imm_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_imm_gen.v 
+# -- Compiling module rv32i_imm_gen
+# 
+# Top level modules:
+# 	rv32i_imm_gen
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_ctrl.v 
+# -- Compiling module rv32i_ctrl
+# 
+# Top level modules:
+# 	rv32i_ctrl
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_csr_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_csr_file.v 
+# -- Compiling module rv32i_csr_file
+# 
+# Top level modules:
+# 	rv32i_csr_file
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_alu.v 
+# -- Compiling module rv32i_alu
+# 
+# Top level modules:
+# 	rv32i_alu
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_all_opcode_decode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_all_opcode_decode.v 
+# -- Compiling module rv32i_all_opcode_decode
+# 
+# Top level modules:
+# 	rv32i_all_opcode_decode
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v 
+# -- Compiling module rv32i_ipsend
+# 
+# Top level modules:
+# 	rv32i_ipsend
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v 
+# -- Compiling module rv32i_iprecieve
+# 
+# Top level modules:
+# 	rv32i_iprecieve
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib rv32i_cken
+# vmap rv32i_cken rv32i_cken
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rv32i_cken rv32i_cken 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work rv32i_cken +incdir+e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken {e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/rv32i_cken.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work rv32i_cken "+incdir+e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken" e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/rv32i_cken.v 
+# -- Compiling module rv32i_cken
+# 
+# Top level modules:
+# 	rv32i_cken
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work rv32i_cken +incdir+e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/submodules {e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/submodules/rv32i_cken_altclkctrl_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work rv32i_cken "+incdir+e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/submodules" e:/xilinx_cmp_arch/risc_v/altera_risc_v_core_udp/db/ip/rv32i_cken/submodules/rv32i_cken_altclkctrl_0.v 
+# -- Compiling module rv32i_cken_altclkctrl_0_sub
+# -- Compiling module rv32i_cken_altclkctrl_0
+# 
+# Top level modules:
+# 	rv32i_cken_altclkctrl_0
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/sim {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/sim/tb_rv32i_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:08 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/sim" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/sim/tb_rv32i_top.v 
+# -- Compiling module tb_rv32i_top
+# 
+# Top level modules:
+# 	tb_rv32i_top
+# End time: 09:34:08 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L rv32i_cken -voptargs="+acc"  tb_rv32i_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L rv32i_cken -voptargs=""+acc"" tb_rv32i_top 
+# Start time: 09:34:08 on Apr 19,2019
+# Loading work.tb_rv32i_top
+# Loading work.rv32i_top
+# Loading work.sys_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.rv32i_udp
+# Loading work.rv32i_ipsend
+# Loading work.rv32i_crc
+# Loading work.rv32i_iprecieve
+# Loading work.rv32i_icache
+# Loading altera_mf_ver.altsyncram
+# Loading work.rv32i_dcache
+# Loading rv32i_cken.rv32i_cken
+# Loading rv32i_cken.rv32i_cken_altclkctrl_0
+# Loading rv32i_cken.rv32i_cken_altclkctrl_0_sub
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading work.rv32i_pipeline
+# Loading work.rv32i_ctrl
+# Loading work.rv32i_all_opcode_decode
+# Loading work.rv32i_opcode_decode
+# Loading work.rv32i_mul_div_ctrl
+# Loading work.rv32i_PC_mux
+# Loading work.rv32i_regfile
+# Loading work.rv32i_imm_gen
+# Loading work.rv32i_src_a_mux
+# Loading work.rv32i_src_b_mux
+# Loading work.rv32i_alu
+# Loading work.rv32i_mul_div
+# Loading work.rv32i_csr_file
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ns
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+mem load -filltype rand -filldata 0 -fillradix symbolic -skip 0 /tb_rv32i_top/DUT/rv32i_icache_inst0/altsyncram_component/m_default/altsyncram_inst/mem_data
+mem load -i E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/instr_mem.mem /tb_rv32i_top/DUT/rv32i_icache_inst0/altsyncram_component/m_default/altsyncram_inst/mem_data
+mem load -i E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/instr_mem.mem /tb_rv32i_top/DUT/rv32i_icache_inst0/altsyncram_component/m_default/altsyncram_inst/mem_data
+mem load -i E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/instr_mem.mem /tb_rv32i_top/DUT/rv32i_icache_inst0/altsyncram_component/m_default/altsyncram_inst/mem_data_b
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/wren \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/wraddress \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/sub_wire0 \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/rdaddress \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/q \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/enable \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/data \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/clock \
+sim:/tb_rv32i_top/DUT/rv32i_dcache_inst0/byteena_a
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/global_rst \
+sim:/tb_rv32i_top/DUT/global_nrst \
+sim:/tb_rv32i_top/DUT/global_clk
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/rv32i_core_run \
+sim:/tb_rv32i_top/DUT/rv32i_core_rst \
+sim:/tb_rv32i_top/DUT/rv32i_core_rst_delay \
+sim:/tb_rv32i_top/DUT/rv32i_core_hld
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/rv32i_global_clk
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/data_cmd_signal
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/icache_rd_addr \
+sim:/tb_rv32i_top/DUT/icache_rd_end \
+sim:/tb_rv32i_top/DUT/icache_wr_addr \
+sim:/tb_rv32i_top/DUT/icache_wr_data \
+sim:/tb_rv32i_top/DUT/icache_wr_en
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+add wave -position insertpoint  \
+sim:/tb_rv32i_top/DUT/imem_rdata
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/simulation/modelsim/sim_wave.do
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+do sim_run.tcl
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_ipsend_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_ipsend.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (160) does not match connection size (1) for port 'IP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (16) does not match connection size (1) for port 'IP_Prtcl'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_IP'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (48) does not match connection size (1) for port 'pc_mac'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_udp.v(72): [PCDPC] - Port size (64) does not match connection size (1) for port 'UDP_layer'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_udp_inst0/rv32i_iprecieve_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_udp/rv32i_iprecieve.v
+# ** Warning: (vsim-3015) E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_top.v(322): [PCDPC] - Port size (24) does not match connection size (1) for port 'ext_interrupts'. The port definition is at: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rv32i_top/DUT/rv32i_pipeline_inst0 File: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rtl/rv32i_core/rv32i_pipeline.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_icache_inst0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rv32i_top.DUT.rv32i_dcache_inst0.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 190000  Instance: tb_rv32i_top.DUT.sys_pll_inst0.altpll_component.cycloneiii_pll.pll3
+run
+force -deposit sim:/tb_rv32i_top/DUT/rv32i_core_run 1 0
+run
+# End time: 10:10:40 on Apr 19,2019, Elapsed time: 0:36:32
+# Errors: 0, Warnings: 63

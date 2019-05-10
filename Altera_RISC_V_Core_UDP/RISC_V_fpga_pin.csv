@@ -1,0 +1,37 @@
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+# File: E:\xilinx_cmp_arch\RISC_V\Altera_RISC_V_Core_UDP\RISC_V_fpga_pin.csv
+# Generated on: Thu Apr 18 23:46:58 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,I/O Standard,Reserved,Current Strength,Strict Preservation,Weak Pull-Up Resistor,Special Function,VREF Group,Slew Rate,Output Termination,Differential Pair,Fitter Location
+E_RESET,Output,PIN_D14,7,3.3-V LVCMOS,,,,,DIFFIO_T21p,B7_N0,,,,PIN_D14
+E_RXC,Input,PIN_A13,7,3.3-V LVCMOS,,,,,DIFFIO_T19n,B7_N0,,,,PIN_A13
+E_RXD[3],Input,PIN_B13,7,3.3-V LVCMOS,,,,,DIFFIO_T19p,B7_N0,,,,PIN_B13
+E_RXD[2],Input,PIN_A14,7,3.3-V LVCMOS,,,,,PLL2_CLKOUTn,B7_N0,,,,PIN_A14
+E_RXD[1],Input,PIN_B14,7,3.3-V LVCMOS,,,,,PLL2_CLKOUTp,B7_N0,,,,PIN_B14
+E_RXD[0],Input,PIN_E10,7,3.3-V LVCMOS,,,,,RDN4,B7_N0,,,,PIN_E10
+E_RXDV,Input,PIN_A15,7,3.3-V LVCMOS,,,,,DIFFIO_T15p,B7_N0,,,,PIN_A15
+E_RXER,Input,PIN_F11,7,2.5 V,,,,,DIFFIO_T15n,B7_N0,,,,PIN_F11
+E_TXC,Input,PIN_D11,7,3.3-V LVCMOS,,maximum current,,,DIFFIO_T20n,B7_N0,,,,PIN_D11
+E_TXD[3],Output,PIN_B11,7,3.3-V LVCMOS,,maximum current,,,DIFFIO_T17p,B7_N0,,,,PIN_B11
+E_TXD[2],Output,PIN_A12,7,3.3-V LVCMOS,,maximum current,,,DIFFIO_T18n,B7_N0,,,,PIN_A12
+E_TXD[1],Output,PIN_B12,7,3.3-V LVCMOS,,maximum current,,,DIFFIO_T18p,B7_N0,,,,PIN_B12
+E_TXD[0],Output,PIN_C11,7,3.3-V LVCMOS,,maximum current,,,VREFB7N0,B7_N0,,,,PIN_C11
+E_TXEN,Output,PIN_C14,7,3.3-V LVCMOS,,maximum current,,,DIFFIO_T21n,B7_N0,,,,PIN_C14
+rst,Input,PIN_E16,6,3.3-V LVCMOS,,,,,"CLK5, DIFFCLK_2n",B6_N0,,,,PIN_E16
+sys_clk,Input,PIN_E1,1,,,,,,"CLK1, DIFFCLK_0n",B1_N0,,,,PIN_E15

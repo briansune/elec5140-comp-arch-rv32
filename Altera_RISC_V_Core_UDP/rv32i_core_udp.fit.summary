@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Apr 30 23:54:21 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : rv32i_core_udp
+Top-level Entity Name : rv32i_top
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 4,554 / 10,320 ( 44 % )
+    Total combinational functions : 4,334 / 10,320 ( 42 % )
+    Dedicated logic registers : 1,463 / 10,320 ( 14 % )
+Total registers : 1468
+Total pins : 16 / 180 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 26,624 / 423,936 ( 6 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

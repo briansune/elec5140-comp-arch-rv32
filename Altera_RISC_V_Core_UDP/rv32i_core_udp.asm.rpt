@@ -1,0 +1,129 @@
+Assembler report for rv32i_core_udp
+Tue Apr 30 23:55:38 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.sof
+  6. Assembler Device Options: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.pof
+  7. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Tue Apr 30 23:55:38 2019 ;
+; Revision Name         ; rv32i_core_udp                        ;
+; Top-level Entity Name ; rv32i_top                             ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE10F17C8                          ;
++-----------------------+---------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Settings                                                                                            ;
++-----------------------------------------------------------------------------+----------------+----------------+
+; Option                                                                      ; Setting        ; Default Value  ;
++-----------------------------------------------------------------------------+----------------+----------------+
+; Maximum processors allowed for parallel compilation                         ; All            ;                ;
+; Use smart compilation                                                       ; Off            ; Off            ;
+; Generate compressed bitstreams                                              ; Off            ; On             ;
+; Enable compact report table                                                 ; Off            ; Off            ;
+; Use configuration device                                                    ; On             ; Off            ;
+; Configuration device                                                        ; Epcs4          ; Auto           ;
+; Compression mode                                                            ; Off            ; Off            ;
+; Clock source for configuration device                                       ; Internal       ; Internal       ;
+; Clock frequency of the configuration device                                 ; 10 MHZ         ; 10 MHz         ;
+; Divide clock frequency by                                                   ; 1              ; 1              ;
+; Auto user code                                                              ; On             ; On             ;
+; Voltage output format                                                       ; Auto discovery ; Auto discovery ;
+; Configuration device auto user code                                         ; Off            ; Off            ;
+; Generate Tabular Text File (.ttf) For Target Device                         ; Off            ; Off            ;
+; Generate Raw Binary File (.rbf) For Target Device                           ; Off            ; Off            ;
+; Generate Hexadecimal (Intel-Format) Output File (.hexout) for Target Device ; Off            ; Off            ;
+; Hexadecimal Output File start address                                       ; 0              ; 0              ;
+; Hexadecimal Output File count direction                                     ; Up             ; Up             ;
+; Release clears before tri-states                                            ; Off            ; Off            ;
+; Auto-restart configuration after error                                      ; On             ; On             ;
+; Enable OCT_DONE                                                             ; Off            ; Off            ;
+; Generate Serial Vector Format File (.svf) for Target Device                 ; Off            ; Off            ;
+; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off            ; Off            ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off            ; Off            ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; On             ; On             ;
++-----------------------------------------------------------------------------+----------------+----------------+
+
+
++---------------------------------------------------------------------+
+; Assembler Generated Files                                           ;
++---------------------------------------------------------------------+
+; File Name                                                           ;
++---------------------------------------------------------------------+
+; E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.sof ;
+; E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.pof ;
++---------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.sof ;
++----------------+------------------------------------------------------------------------------+
+; Option         ; Setting                                                                      ;
++----------------+------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00369715                                                                   ;
+; Checksum       ; 0x00369715                                                                   ;
++----------------+------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_Core_UDP/rv32i_core_udp.pof ;
++--------------------+--------------------------------------------------------------------------+
+; Option             ; Setting                                                                  ;
++--------------------+--------------------------------------------------------------------------+
+; JTAG usercode      ; 0x00000000                                                               ;
+; Checksum           ; 0x028D18FA                                                               ;
+; Compression Ratio  ; 1                                                                        ;
++--------------------+--------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+    Info: Processing started: Tue Apr 30 23:55:37 2019
+Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off rv32i_core_udp -c rv32i_core_udp
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 544 megabytes
+    Info: Processing ended: Tue Apr 30 23:55:38 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

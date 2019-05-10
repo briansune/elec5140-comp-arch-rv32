@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/simulation/modelsim
+vrv32i_alu
+Z1 !s110 1552749094
+!i10b 1
+!s100 UaOHYIc0SM9[jV^5Zj?M20
+I0>?GXdcBo@ATZRDY8anm50
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1552748205
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1552749094.000000
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32_opcodes.vh|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/vscale_alu_ops.vh|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32i_alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog
+Z7 tCvgOpt 0
+vtb_rv32i_alu
+R1
+!i10b 1
+!s100 ?l?Ye7SF5@`aze8Jn8oFR0
+ISRnSDGhjeK4Fzh8mB=;k73
+R2
+R0
+w1552748893
+8E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v
+FE:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/rv32_opcodes.vh|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/vscale_alu_ops.vh|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog|E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_alu/verilog/tb_rv32i_alu.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,3 @@
+﻿  udp_server.cpp
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_server\udp_server\udp_server.cpp(50): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: see declaration of 'inet_ntoa'

@@ -1,0 +1,4 @@
+﻿  udp_client.cpp
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_client\udp_client\udp_client.cpp(31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  udp_client.vcxproj -> E:\xilinx_cmp_arch\RISC_V\UDP_cpp\udp_client\x64\Debug\udp_client.exe
+  udp_client.vcxproj -> E:\xilinx_cmp_arch\RISC_V\UDP_cpp\udp_client\x64\Debug\udp_client.pdb (Full PDB)

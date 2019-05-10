@@ -1,0 +1,437 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "htif_pcr_req_ready",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_valid",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[18]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[19]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[20]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[21]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[22]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[23]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[24]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[25]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[26]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[27]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[28]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[29]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[30]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_data[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_valid",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_resp_ready",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_rw",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_interrupts[21]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[18]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[19]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[20]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[21]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[22]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[23]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[24]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[25]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[26]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[27]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[28]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[29]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[30]",
+					"strict" : false
+				},
+				{
+					"name" : "htif_pcr_req_data[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

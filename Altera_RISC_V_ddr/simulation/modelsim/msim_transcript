@@ -1,0 +1,983 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RISC_V_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:02:56 on Apr 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 06:02:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:02:56 on Apr 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/sdram_ctrl.v 
+# -- Compiling module sdram_ctrl
+# 
+# Top level modules:
+# 	sdram_ctrl
+# End time: 06:02:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:02:56 on Apr 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/src/bidirectional_io.v 
+# -- Compiling module bidirectional_io
+# 
+# Top level modules:
+# 	bidirectional_io
+# End time: 06:02:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:02:56 on Apr 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/tb_rv32i_ddr.v 
+# -- Compiling module tb_rv32i_ddr
+# 
+# Top level modules:
+# 	tb_rv32i_ddr
+# End time: 06:02:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim {E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 06:02:56 on Apr 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim" E:/xilinx_cmp_arch/RISC_V/Altera_RISC_V_ddr/sim/sdr.v 
+# -- Compiling module sdr
+# 
+# Top level modules:
+# 	sdr
+# End time: 06:02:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_rv32i_ddr
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_rv32i_ddr 
+# Start time: 06:02:57 on Apr 14,2019
+# Loading work.tb_rv32i_ddr
+# Loading work.top
+# Loading work.sdram_ctrl
+# Loading work.bidirectional_io
+# Loading work.sdr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# tb_rv32i_ddr.sdram_model : at time   82320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time   82500.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time   82680.0 ns LMR  : Load Mode Register
+# tb_rv32i_ddr.sdram_model :                             CAS Latency      = 2
+# tb_rv32i_ddr.sdram_model :                             Burst Length     = 1
+# tb_rv32i_ddr.sdram_model :                             Burst Type       = Sequential
+# tb_rv32i_ddr.sdram_model :                             Write Burst Mode = Single Location Access
+# tb_rv32i_ddr.sdram_model : at time   82760.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   82820.0 ns WRITE: Bank = 0 Row =    0, Col =   0, Data = ff9c
+# tb_rv32i_ddr.sdram_model : at time   82840.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   82920.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   82980.0 ns WRITE: Bank = 0 Row =    0, Col =   1, Data = 0003
+# tb_rv32i_ddr.sdram_model : at time   83000.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83080.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83140.0 ns WRITE: Bank = 0 Row =    0, Col =   2, Data = 006a
+# tb_rv32i_ddr.sdram_model : at time   83160.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83240.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83300.0 ns WRITE: Bank = 0 Row =    0, Col =   3, Data = 00d1
+# tb_rv32i_ddr.sdram_model : at time   83320.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83400.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83460.0 ns WRITE: Bank = 0 Row =    0, Col =   4, Data = 0138
+# tb_rv32i_ddr.sdram_model : at time   83480.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83560.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83620.0 ns WRITE: Bank = 0 Row =    0, Col =   5, Data = 019f
+# tb_rv32i_ddr.sdram_model : at time   83640.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83720.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83780.0 ns WRITE: Bank = 0 Row =    0, Col =   6, Data = 0206
+# tb_rv32i_ddr.sdram_model : at time   83800.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83880.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83940.0 ns WRITE: Bank = 0 Row =    0, Col =   7, Data = 026d
+# tb_rv32i_ddr.sdram_model : at time   83960.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84040.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84100.0 ns WRITE: Bank = 0 Row =    0, Col =   8, Data = 02d4
+# tb_rv32i_ddr.sdram_model : at time   84120.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84200.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84260.0 ns WRITE: Bank = 0 Row =    0, Col =   9, Data = 033b
+# tb_rv32i_ddr.sdram_model : at time   84280.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84360.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84420.0 ns WRITE: Bank = 0 Row =    0, Col =  10, Data = 03a2
+# tb_rv32i_ddr.sdram_model : at time   84440.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84560.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84640.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84648.0 ns READ : Bank = 0 Row =    0, Col =   0, Dqm = 00, Data = ff9c
+# tb_rv32i_ddr.sdram_model : at time   84700.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84780.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84788.0 ns READ : Bank = 0 Row =    0, Col =   1, Dqm = 00, Data = 0003
+# tb_rv32i_ddr.sdram_model : at time   84840.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84920.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84928.0 ns READ : Bank = 0 Row =    0, Col =   2, Dqm = 00, Data = 006a
+# tb_rv32i_ddr.sdram_model : at time   84980.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85060.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85068.0 ns READ : Bank = 0 Row =    0, Col =   3, Dqm = 00, Data = 00d1
+# tb_rv32i_ddr.sdram_model : at time   85120.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85200.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85208.0 ns READ : Bank = 0 Row =    0, Col =   4, Dqm = 00, Data = 0138
+# tb_rv32i_ddr.sdram_model : at time   85260.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85340.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85348.0 ns READ : Bank = 0 Row =    0, Col =   5, Dqm = 00, Data = 019f
+# tb_rv32i_ddr.sdram_model : at time   85400.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85480.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85488.0 ns READ : Bank = 0 Row =    0, Col =   6, Dqm = 00, Data = 0206
+# tb_rv32i_ddr.sdram_model : at time   85540.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85620.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85628.0 ns READ : Bank = 0 Row =    0, Col =   7, Dqm = 00, Data = 026d
+# tb_rv32i_ddr.sdram_model : at time   85680.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85760.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85768.0 ns READ : Bank = 0 Row =    0, Col =   8, Dqm = 00, Data = 02d4
+# tb_rv32i_ddr.sdram_model : at time   85820.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85900.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85908.0 ns READ : Bank = 0 Row =    0, Col =   9, Dqm = 00, Data = 033b
+# tb_rv32i_ddr.sdram_model : at time   85960.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   86040.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   86048.0 ns READ : Bank = 0 Row =    0, Col =  10, Dqm = 00, Data = 03a2
+# tb_rv32i_ddr.sdram_model : at time   93840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  101880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  109920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  117960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  126000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  134040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  142080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  150120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  158160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  166200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  174240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  182280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  190320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  198360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  206400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  214440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  222480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  230520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  238560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  246600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  254640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  262680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  270720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  278760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  286800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  294840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  302880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  310920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  318960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  327000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  335040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  343080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  351120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  359160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  367200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  375240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  383280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  391320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  399360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  407400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  415440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  423480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  431520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  439560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  447600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  455640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  463680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  471720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  479760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  487800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  495840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  503880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  511920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  519960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  528000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  536040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  544080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  552120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  560160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  568200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  576240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  584280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  592320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  600360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  608400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  616440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  624480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  632520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  640560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  648600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  656640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  664680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  672720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  680760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  688800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  696840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  704880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  712920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  720960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  729000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  737040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  745080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  753120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  761160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  769200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  777240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  785280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  793320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  801360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  809400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  817440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  825480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  833520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  841560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  849600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  857640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  865680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  873720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  881760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  889800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  897840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  905880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  913920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  921960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  930000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  938040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  946080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  954120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  962160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  970200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  978240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  986280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time  994320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1002360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1010400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1018440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1026480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1034520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1042560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1050600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1058640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1066680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1074720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1082760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1090800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1098840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1106880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1114920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1122960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1131000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1139040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1147080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1155120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1163160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1171200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1179240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1187280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1195320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1203360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1211400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1219440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1227480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1235520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1243560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1251600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1259640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1267680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1275720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1283760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1291800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1299840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1307880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1315920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1323960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1332000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1340040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1348080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1356120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1364160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1372200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1380240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1388280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1396320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1404360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1412400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1420440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1428480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1436520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1444560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1452600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1460640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1468680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1476720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1484760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1492800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1500840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1508880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1516920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1524960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1533000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1541040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1549080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1557120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1565160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1573200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1581240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1589280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1597320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1605360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1613400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1621440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1629480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1637520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1645560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1653600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1661640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1669680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1677720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1685760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1693800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1701840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1709880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1717920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1725960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1734000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1742040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1750080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1758120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1766160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1774200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1782240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1790280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1798320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1806360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1814400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1822440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1830480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1838520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1846560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1854600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1862640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1870680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1878720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1886760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1894800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1902840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1910880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1918920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1926960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1935000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1943040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1951080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1959120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1967160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1975200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1983240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1991280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 1999320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2007360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2015400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2023440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2031480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2039520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2047560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2055600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2063640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2071680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2079720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2087760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2095800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2103840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2111880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2119920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2127960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2136000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2144040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2152080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2160120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2168160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2176200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2184240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2192280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2200320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2208360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2216400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2224440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2232480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2240520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2248560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2256600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2264640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2272680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2280720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2288760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2296800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2304840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2312880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2320920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2328960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2337000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2345040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2353080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2361120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2369160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2377200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2385240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2393280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2401320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2409360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2417400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2425440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2433480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2441520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2449560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2457600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2465640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2473680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2481720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2489760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2497800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2505840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2513880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2521920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2529960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2538000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2546040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2554080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2562120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2570160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2578200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2586240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2594280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2602320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2610360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2618400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2626440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2634480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2642520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2650560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2658600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2666640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2674680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2682720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2690760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2698800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2706840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2714880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2722920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2730960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2739000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2747040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2755080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2763120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2771160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2779200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2787240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2795280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2803320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2811360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2819400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2827440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2835480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2843520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2851560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2859600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2867640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2875680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2883720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2891760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2899800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2907840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2915880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2923920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2931960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2940000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2948040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2956080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2964120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2972160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2980200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2988240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 2996280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3004320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3012360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3020400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3028440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3036480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3044520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3052560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3060600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3068640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3076680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3084720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3092760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3100800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3108840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3116880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3124920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3132960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3141000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3149040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3157080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3165120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3173160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3181200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3189240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3197280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3205320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3213360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3221400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3229440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3237480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3245520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3253560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3261600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3269640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3277680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3285720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3293760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3301800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3309840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3317880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3325920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3333960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3342000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3350040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3358080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3366120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3374160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3382200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3390240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3398280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3406320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3414360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3422400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3430440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3438480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3446520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3454560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3462600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3470640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3478680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3486720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3494760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3502800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3510840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3518880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3526920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3534960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3543000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3551040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3559080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3567120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3575160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3583200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3591240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3599280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3607320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3615360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3623400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3631440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3639480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3647520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3655560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3663600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3671640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3679680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3687720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3695760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3703800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3711840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3719880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3727920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3735960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3744000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3752040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3760080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3768120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3776160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3784200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3792240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3800280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3808320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3816360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3824400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3832440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3840480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3848520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3856560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3864600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3872640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3880680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3888720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3896760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3904800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3912840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3920880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3928920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3936960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3945000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3953040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3961080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3969120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3977160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3985200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 3993240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4001280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4009320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4017360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4025400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4033440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4041480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4049520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4057560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4065600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4073640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4081680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4089720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4097760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4105800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4113840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4121880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4129920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4137960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4146000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4154040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4162080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4170120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4178160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4186200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4194240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4202280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4210320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4218360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4226400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4234440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4242480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4250520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4258560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4266600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4274640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4282680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4290720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4298760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4306800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4314840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4322880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4330920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4338960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4347000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4355040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4363080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4371120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4379160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4387200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4395240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4403280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4411320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4419360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4427400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4435440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4443480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4451520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4459560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4467600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4475640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4483680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4491720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4499760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4507800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4515840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4523880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4531920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4539960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4548000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4556040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4564080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4572120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4580160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4588200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4596240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4604280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4612320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4620360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4628400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4636440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4644480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4652520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4660560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4668600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4676640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4684680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4692720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4700760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4708800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4716840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4724880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4732920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4740960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4749000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4757040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4765080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4773120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4781160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4789200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4797240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4805280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4813320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4821360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4829400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4837440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4845480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4853520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4861560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4869600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4877640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4885680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4893720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4901760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4909800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4917840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4925880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4933920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4941960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4950000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4958040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4966080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4974120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4982160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4990200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 4998240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5006280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5014320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5022360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5030400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5038440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5046480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5054520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5062560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5070600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5078640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5086680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5094720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5102760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5110800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5118840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5126880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5134920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5142960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5151000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5159040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5167080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5175120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5183160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5191200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5199240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5207280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5215320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5223360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5231400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5239440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5247480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5255520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5263560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5271600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5279640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5287680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5295720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5303760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5311800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5319840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5327880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5335920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5343960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5352000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5360040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5368080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5376120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5384160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5392200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5400240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5408280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5416320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5424360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5432400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5440440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5448480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5456520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5464560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5472600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5480640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5488680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5496720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5504760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5512800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5520840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5528880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5536920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5544960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5553000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5561040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5569080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5577120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5585160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5593200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5601240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5609280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5617320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5625360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5633400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5641440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5649480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5657520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5665560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5673600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5681640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5689680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5697720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5705760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5713800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5721840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5729880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5737920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5745960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5754000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5762040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5770080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5778120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5786160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5794200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5802240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5810280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5818320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5826360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5834400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5842440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5850480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5858520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5866560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5874600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5882640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5890680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5898720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5906760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5914800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5922840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5930880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5938920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5946960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5955000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5963040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5971080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5979120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5987160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 5995200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6003240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6011280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6019320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6027360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6035400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6043440.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6051480.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6059520.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6067560.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6075600.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6083640.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6091680.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6099720.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6107760.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6115800.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6123840.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6131880.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6139920.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6147960.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6156000.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6164040.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6172080.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6180120.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6188160.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6196200.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6204240.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6212280.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6220320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6228360.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6236400.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time 6244440.0 ns AREF : Auto Refresh
+do sim_run.tcl
+# tb_rv32i_ddr.sdram_model : at time   82320.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time   82500.0 ns AREF : Auto Refresh
+# tb_rv32i_ddr.sdram_model : at time   82680.0 ns LMR  : Load Mode Register
+# tb_rv32i_ddr.sdram_model :                             CAS Latency      = 2
+# tb_rv32i_ddr.sdram_model :                             Burst Length     = 1
+# tb_rv32i_ddr.sdram_model :                             Burst Type       = Sequential
+# tb_rv32i_ddr.sdram_model :                             Write Burst Mode = Single Location Access
+# tb_rv32i_ddr.sdram_model : at time   82760.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   82820.0 ns WRITE: Bank = 0 Row =    0, Col =   0, Data = ff9c
+# tb_rv32i_ddr.sdram_model : at time   82840.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   82920.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   82980.0 ns WRITE: Bank = 0 Row =    0, Col =   1, Data = 0003
+# tb_rv32i_ddr.sdram_model : at time   83000.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83080.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83140.0 ns WRITE: Bank = 0 Row =    0, Col =   2, Data = 006a
+# tb_rv32i_ddr.sdram_model : at time   83160.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83240.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83300.0 ns WRITE: Bank = 0 Row =    0, Col =   3, Data = 00d1
+# tb_rv32i_ddr.sdram_model : at time   83320.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83400.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83460.0 ns WRITE: Bank = 0 Row =    0, Col =   4, Data = 0138
+# tb_rv32i_ddr.sdram_model : at time   83480.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83560.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83620.0 ns WRITE: Bank = 0 Row =    0, Col =   5, Data = 019f
+# tb_rv32i_ddr.sdram_model : at time   83640.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83720.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83780.0 ns WRITE: Bank = 0 Row =    0, Col =   6, Data = 0206
+# tb_rv32i_ddr.sdram_model : at time   83800.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   83880.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   83940.0 ns WRITE: Bank = 0 Row =    0, Col =   7, Data = 026d
+# tb_rv32i_ddr.sdram_model : at time   83960.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84040.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84100.0 ns WRITE: Bank = 0 Row =    0, Col =   8, Data = 02d4
+# tb_rv32i_ddr.sdram_model : at time   84120.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84200.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84260.0 ns WRITE: Bank = 0 Row =    0, Col =   9, Data = 033b
+# tb_rv32i_ddr.sdram_model : at time   84280.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84360.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84420.0 ns WRITE: Bank = 0 Row =    0, Col =  10, Data = 03a2
+# tb_rv32i_ddr.sdram_model : at time   84440.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+run
+# tb_rv32i_ddr.sdram_model : at time   84560.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84640.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84648.0 ns READ : Bank = 0 Row =    0, Col =   0, Dqm = 00, Data = ff9c
+# tb_rv32i_ddr.sdram_model : at time   84700.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84780.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84788.0 ns READ : Bank = 0 Row =    0, Col =   1, Dqm = 00, Data = 0003
+# tb_rv32i_ddr.sdram_model : at time   84840.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   84920.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   84928.0 ns READ : Bank = 0 Row =    0, Col =   2, Dqm = 00, Data = 006a
+# tb_rv32i_ddr.sdram_model : at time   84980.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85060.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85068.0 ns READ : Bank = 0 Row =    0, Col =   3, Dqm = 00, Data = 00d1
+# tb_rv32i_ddr.sdram_model : at time   85120.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85200.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85208.0 ns READ : Bank = 0 Row =    0, Col =   4, Dqm = 00, Data = 0138
+# tb_rv32i_ddr.sdram_model : at time   85260.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85340.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85348.0 ns READ : Bank = 0 Row =    0, Col =   5, Dqm = 00, Data = 019f
+# tb_rv32i_ddr.sdram_model : at time   85400.0 ns ACT  : Bank = 0 Row =    0
+# tb_rv32i_ddr.sdram_model : at time   85480.0 ns NOTE : Start Internal Auto Precharge for Bank 0
+# tb_rv32i_ddr.sdram_model : at time   85488.0 ns READ : Bank = 0 Row =    0, Col =   6, Dqm = 00, Data = 0206
+# End time: 06:04:31 on Apr 14,2019, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0

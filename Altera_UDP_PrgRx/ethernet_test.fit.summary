@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Apr 16 22:36:31 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : ethernet_test
+Top-level Entity Name : ethernet
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 770 / 10,320 ( 7 % )
+    Total combinational functions : 618 / 10,320 ( 6 % )
+    Dedicated logic registers : 386 / 10,320 ( 4 % )
+Total registers : 391
+Total pins : 48 / 180 ( 27 % )
+Total virtual pins : 0
+Total memory bits : 16,384 / 423,936 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
