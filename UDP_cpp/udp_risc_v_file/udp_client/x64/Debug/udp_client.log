@@ -1,0 +1,9 @@
+﻿  udp_client.cpp
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(106): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(131): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(205): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(231): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\xilinx_cmp_arch\risc_v\udp_cpp\udp_risc_v_file\udp_client\udp_client.cpp(335): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  udp_client.vcxproj -> E:\xilinx_cmp_arch\RISC_V\UDP_cpp\udp_risc_v_file\x64\Debug\udp_client.exe
+  udp_client.vcxproj -> E:\xilinx_cmp_arch\RISC_V\UDP_cpp\udp_risc_v_file\x64\Debug\udp_client.pdb (Full PDB)
